@@ -12,8 +12,6 @@ namespace Dia6
     {
         void Opciones()
         {
-
-            Program p1 = new Program();
             Console.WriteLine("Ingrese el numero de ejercicio a ejecutar:");
             string op = Console.ReadLine();
 
@@ -63,7 +61,7 @@ namespace Dia6
                         pilas1.Apilar(568.45);
                         pilas1.Apilar(984);
                         pilas1.MostrarPila();
-                        pilas1.desapilar();
+                        pilas1.Desapilar();
                         pilas1.MostrarPila();
                         break;
                     case 6:
@@ -72,9 +70,11 @@ namespace Dia6
                         cola.Encolar("Agustin");
                         cola.Encolar("Marcos");
                         cola.MostrarCola();
+                        cola.Desencolar();
+                        cola.MostrarCola();
                         break;
                     case 8:
-                        string rafa = "Rafael";
+                        string rafa = "Rafaelase";
                         Console.WriteLine(rafa);
                         Console.WriteLine(rafa.PrimerMitad());
                         Console.WriteLine(rafa.SegundaMitad());

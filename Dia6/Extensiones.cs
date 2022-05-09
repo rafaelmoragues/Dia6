@@ -17,7 +17,7 @@ namespace Dia6
 
         public static string SegundaMitad(this string palabra)
         {
-            string aux = palabra.Substring(3, palabra.Length -3);
+            string aux = palabra.Substring(palabra.Length /2, palabra.Length - (palabra.Length/2));
             return aux;
         }
 

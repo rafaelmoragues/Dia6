@@ -15,7 +15,7 @@ namespace Dia6.Generics
             stack.Push(objeto);
         }
 
-        public T desapilar ()
+        public T Desapilar ()
         {
             return stack.Pop();
         }
